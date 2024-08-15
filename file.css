@@ -1,0 +1,187 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50; /* Midnight Blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #34495e; /* Wet Asphalt */
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: red;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid #89f79b; /* Light gray border */
+    margin-left: 10px;
+}
+
+
+/* events oman page */
+
+
+.containerx {
+    padding: 20px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid #89f79b;/* Light gray border */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li strong {
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+}
+
+/*   gallery page*/
+
+
+
+.columnx {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid #89f79b; /* Light gray border */
+    text-align: center;
+    margin-left: 10px;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+/* register page */
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2c3e50; /* Midnight Blue */
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #34495e; /* Darker shade of blue */
+}
+
+
+/* contact page */
+
+
+.containery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info,
+.social-media {
+    flex-basis: 45%;
+}
+
+.contact-info h2,
+.social-media h2 {
+    color: #2c3e50; /* Midnight Blue */
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    margin-bottom: 5px;
+}
+
+.social-media ul li a {
+    color: #2c3e50; /* Midnight Blue */
+    text-decoration: none;
+}
+
+.social-media ul li a:hover {
+    text-decoration: underline;
+}
